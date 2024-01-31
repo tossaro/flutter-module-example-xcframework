@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name                  = 'App'
   s.version               = '0.0.1'
-  s.summary               = ''
-  s.description           = ''
+  s.summary               = 'Example App.xcframework'
+  s.description           = 'Example App.xcframework'
   s.homepage              = 'https://github.com/tossaro/flutter-module-example-xcframework'
   s.license               = ''
   s.author                = { 'Hamzah Tossaro' => 'hamzah.tossaro@gmail.com' }
