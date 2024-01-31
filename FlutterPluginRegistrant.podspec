@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.author                = { 'Hamzah Tossaro' => 'hamzah.tossaro@gmail.com' }
   s.source                = { :http => 'https://github.com/tossaro/flutter-module-example-xcframework/archive/refs/heads/main.zip' }
   s.platform              = :ios, '12.0'
-  s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
+  s.vendored_frameworks   = 'flutter_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework'
 end

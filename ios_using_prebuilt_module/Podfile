@@ -1,0 +1,12 @@
+platform :ios, '12'
+
+target 'IOSUsingPrebuiltModule' do
+  use_frameworks!
+  # for development
+  pod 'Flutter', :podspec => '../Flutter.podspec'
+  pod 'Module', :path => '../'
+
+  # for release
+  # pod 'Flutter', :git => 'https://github.com/tossaro/flutter-module-example-xcframework.git'
+  # pod 'Module', :git => 'https://github.com/tossaro/flutter-module-example-xcframework.git'
+end
